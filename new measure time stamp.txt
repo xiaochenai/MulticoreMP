@@ -1,0 +1,289 @@
+3M:
+***************************************
+File encrypt and split Time Stamp : 6170
+Piece transmit end time stamp : 2247
+1774
+Index encrypt End Time Stamp : 5447
+Index split End Time Stamp : 2098
+Index split and encrypt Time Stamp : 7545
+Index Merge end time stamp : 832
+Index Decrypt end time stamp : 3830
+Index Merge and Decrypt end time stamp 4662
+Receive piece end time stamp : 5687
+File Merge end time stamp : 620
+File decrypt end time stamp : 314
+File merge and decrypt time stamp : 934
+***************************************
+File encrypt and split Time Stamp : 5949
+Piece transmit end time stamp : 6499
+4725
+Index encrypt End Time Stamp : 5112
+Index split End Time Stamp : 1705
+Index split and encrypt Time Stamp : 6817
+Index Merge end time stamp : 728
+Index Decrypt end time stamp : 3917
+Index Merge and Decrypt end time stamp 4645
+Receive piece end time stamp : 6446
+File Merge end time stamp : 614
+File decrypt end time stamp : 309
+File merge and decrypt time stamp : 923
+***************************************
+File encrypt and split Time Stamp : 1896
+Piece transmit end time stamp : 5553
+4425
+Index encrypt End Time Stamp : 4572
+Index split End Time Stamp : 1686
+Index split and encrypt Time Stamp : 6258
+Index Merge end time stamp : 594
+Index Decrypt end time stamp : 3152
+Index Merge and Decrypt end time stamp 3746
+Receive piece end time stamp : 1887
+File Merge end time stamp : 28
+File decrypt end time stamp : 355
+File merge and decrypt time stamp : 383
+***************************************
+File encrypt and split Time Stamp : 1808
+Piece transmit end time stamp : 1002
+2595
+Index encrypt End Time Stamp : 4500
+Index split End Time Stamp : 1879
+Index split and encrypt Time Stamp : 6379
+Index Merge end time stamp : 604
+Index Decrypt end time stamp : 3259
+Index Merge and Decrypt end time stamp 3863
+Receive piece end time stamp : 1909
+File Merge end time stamp : 25
+File decrypt end time stamp : 311
+File merge and decrypt time stamp : 336
+***************************************
+File encrypt and split Time Stamp : 2007
+Piece transmit end time stamp : 2056
+4651
+Index encrypt End Time Stamp : 4571
+Index split End Time Stamp : 1716
+Index split and encrypt Time Stamp : 6287
+Index Merge end time stamp : 785
+Index Decrypt end time stamp : 3376
+Index Merge and Decrypt end time stamp 4161
+Receive piece end time stamp : 1805
+File Merge end time stamp : 48
+File decrypt end time stamp : 341
+File merge and decrypt time stamp : 389
+***************************************
+File encrypt and split Time Stamp : 1935
+Piece transmit end time stamp : 4989
+4595
+Index encrypt End Time Stamp : 4694
+Index split End Time Stamp : 1649
+Index split and encrypt Time Stamp : 6343
+Index Merge end time stamp : 615
+Index Decrypt end time stamp : 3194
+Index Merge and Decrypt end time stamp 3808
+Receive piece end time stamp : 1686
+File Merge end time stamp : 25
+File decrypt end time stamp : 359
+File merge and decrypt time stamp : 384
+***************************************
+File encrypt and split Time Stamp : 1889
+Piece transmit end time stamp : 5658
+4183
+Index encrypt End Time Stamp : 4570
+Index split End Time Stamp : 1621
+Index split and encrypt Time Stamp : 6191
+Index Merge end time stamp : 640
+Index Decrypt end time stamp : 3639
+Index Merge and Decrypt end time stamp 4279
+Receive piece end time stamp : 1755
+File Merge end time stamp : 30
+File decrypt end time stamp : 338
+File merge and decrypt time stamp : 368
+
+***************************************
+File encrypt and split Time Stamp : 2057
+Piece transmit end time stamp : 5130
+3788
+Index encrypt End Time Stamp : 4669
+Index split End Time Stamp : 1711
+Index split and encrypt Time Stamp : 6380
+Index Merge end time stamp : 602
+Index Decrypt end time stamp : 3387
+Index Merge and Decrypt end time stamp 3989
+Receive piece end time stamp : 1340
+File Merge end time stamp : 28
+File decrypt end time stamp : 348
+File merge and decrypt time stamp : 376
+***************************************
+File encrypt and split Time Stamp : 1853
+Piece transmit end time stamp : 879
+2400
+Index encrypt End Time Stamp : 4560
+Index split End Time Stamp : 1586
+Index split and encrypt Time Stamp : 6146
+Index Merge end time stamp : 573
+Index Decrypt end time stamp : 3492
+Index Merge and Decrypt end time stamp 4065
+Receive piece end time stamp : 2250
+File Merge end time stamp : 20
+File decrypt end time stamp : 348
+File merge and decrypt time stamp : 368
+***************************************
+File encrypt and split Time Stamp : 1800
+Piece transmit end time stamp : 5718
+3994
+Index encrypt End Time Stamp : 4633
+Index split End Time Stamp : 1732
+Index split and encrypt Time Stamp : 6365
+Index Merge end time stamp : 592
+Index Decrypt end time stamp : 3199
+Index Merge and Decrypt end time stamp 3791
+Receive piece end time stamp : 2104
+File Merge end time stamp : 33
+File decrypt end time stamp : 338
+File merge and decrypt time stamp : 371
+
+300K
+***************************************
+File encrypt and split Time Stamp : 1414
+Piece transmit end time stamp : 1015
+2354
+Index encrypt End Time Stamp : 4650
+Index split End Time Stamp : 1559
+Index split and encrypt Time Stamp : 6209
+Index Merge end time stamp : 901
+Index Decrypt end time stamp : 3243
+Index Merge and Decrypt end time stamp 4144
+Receive piece end time stamp : 2186
+File Merge end time stamp : 4
+File decrypt end time stamp : 28
+File merge and decrypt time stamp : 32
+***************************************
+File encrypt and split Time Stamp : 1681
+Piece transmit end time stamp : 995
+2325
+Index encrypt End Time Stamp : 4559
+Index split End Time Stamp : 1592
+Index split and encrypt Time Stamp : 6151
+Index Merge end time stamp : 584
+Index Decrypt end time stamp : 3464
+Index Merge and Decrypt end time stamp 4048
+Receive piece end time stamp : 1947
+File Merge end time stamp : 4
+File decrypt end time stamp : 28
+File merge and decrypt time stamp : 32
+***************************************
+File encrypt and split Time Stamp : 1461
+Piece transmit end time stamp : 639
+1556
+Index encrypt End Time Stamp : 4655
+Index split End Time Stamp : 1576
+Index split and encrypt Time Stamp : 6231
+Index Merge end time stamp : 630
+Index Decrypt end time stamp : 3346
+Index Merge and Decrypt end time stamp 3976
+Receive piece end time stamp : 1560
+File Merge end time stamp : 4
+File decrypt end time stamp : 26
+File merge and decrypt time stamp : 30
+
+***************************************
+File encrypt and split Time Stamp : 1501
+Piece transmit end time stamp : 22201
+5983
+Index encrypt End Time Stamp : 4488
+Index split End Time Stamp : 1578
+Index split and encrypt Time Stamp : 6066
+Index Merge end time stamp : 623
+Index Decrypt end time stamp : 3133
+Index Merge and Decrypt end time stamp 3756
+Receive piece end time stamp : 1622
+File Merge end time stamp : 8
+File decrypt end time stamp : 25
+File merge and decrypt time stamp : 33
+***************************************
+File encrypt and split Time Stamp : 1436
+Piece transmit end time stamp : 791
+1675
+Index encrypt End Time Stamp : 4560
+Index split End Time Stamp : 1692
+Index split and encrypt Time Stamp : 6252
+Index Merge end time stamp : 604
+Index Decrypt end time stamp : 3451
+Index Merge and Decrypt end time stamp 4055
+Receive piece end time stamp : 1367
+File Merge end time stamp : 6
+File decrypt end time stamp : 28
+File merge and decrypt time stamp : 34
+
+
+100K
+***************************************
+File encrypt and split Time Stamp : 1394
+Piece transmit end time stamp : 2613
+4005
+Index encrypt End Time Stamp : 4524
+Index split End Time Stamp : 1679
+Index split and encrypt Time Stamp : 6203
+Index Merge end time stamp : 609
+Index Decrypt end time stamp : 3468
+Index Merge and Decrypt end time stamp 4077
+Receive piece end time stamp : 1741
+File Merge end time stamp : 2
+File decrypt end time stamp : 9
+File merge and decrypt time stamp : 11
+***************************************
+File encrypt and split Time Stamp : 1424
+Piece transmit end time stamp : 871
+1418
+Index encrypt End Time Stamp : 4533
+Index split End Time Stamp : 1784
+Index split and encrypt Time Stamp : 6317
+Index Merge end time stamp : 631
+Index Decrypt end time stamp : 3286
+Index Merge and Decrypt end time stamp 3917
+Receive piece end time stamp : 1804
+File Merge end time stamp : 3
+File decrypt end time stamp : 10
+File merge and decrypt time stamp : 13
+***************************************
+File encrypt and split Time Stamp : 1366
+Piece transmit end time stamp : 1774
+4239
+Index encrypt End Time Stamp : 4620
+Index split End Time Stamp : 1807
+Index split and encrypt Time Stamp : 6427
+Index Merge end time stamp : 764
+Index Decrypt end time stamp : 3260
+Index Merge and Decrypt end time stamp 4024
+Receive piece end time stamp : 1579
+File Merge end time stamp : 3
+File decrypt end time stamp : 9
+File merge and decrypt time stamp : 12
+***************************************
+File encrypt and split Time Stamp : 1421
+Piece transmit end time stamp : 1249
+1454
+Index encrypt End Time Stamp : 4558
+Index split End Time Stamp : 2563
+Index split and encrypt Time Stamp : 7121
+Index Merge end time stamp : 599
+Index Decrypt end time stamp : 3528
+Index Merge and Decrypt end time stamp 4127
+Receive piece end time stamp : 1631
+File Merge end time stamp : 0
+File decrypt end time stamp : 0
+File merge and decrypt time stamp : 0
+
+***************************************
+File encrypt and split Time Stamp : 1392
+Piece transmit end time stamp : 622
+1326
+Index encrypt End Time Stamp : 4670
+Index split End Time Stamp : 1784
+Index split and encrypt Time Stamp : 6454
+Index Merge end time stamp : 751
+Index Decrypt end time stamp : 3507
+Index Merge and Decrypt end time stamp 4258
+Receive piece end time stamp : 1467
+File Merge end time stamp : 2
+File decrypt end time stamp : 10
+File merge and decrypt time stamp : 12

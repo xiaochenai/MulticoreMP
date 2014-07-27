@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/My jar/base64coder.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/shareCrypto.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/UnlimitedJCEPolicyJDK7.zip"/>
+	<classpathentry kind="lib" path="C:/Sun/Codes/jTSS_0.7a-TPM Java Environment/lib/iaik_jtss_tcs.jar"/>
+	<classpathentry kind="lib" path="C:/Sun/Codes/jTSS_0.7a-TPM Java Environment/lib/iaik_jtss_tcs_soap.jar"/>
+	<classpathentry kind="lib" path="C:/Sun/Codes/jTSS_0.7a-TPM Java Environment/lib/iaik_jtss_tsp.jar"/>
+	<classpathentry kind="lib" path="C:/Sun/Codes/jTSS_0.7a-TPM Java Environment/lib/iaik_jtss_tsp_soap.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/lib/iaik_jtss_tcs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/lib/iaik_jtss_tcs_soap.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/lib/iaik_jtss_tsp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/lib/iaik_jtss_tsp_soap.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/base64coder.zip"/>
+	<classpathentry kind="lib" path="C:/My jar/bcprov-ext-jdk15on-147.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/bcprov-jdk15on-147.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/bcprov-jdk15on-147.zip"/>
+	<classpathentry kind="lib" path="C:/My jar/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/jce_policy-6.zip"/>
+	<classpathentry kind="lib" path="C:/My jar/sc-light-jdk15on-1.47.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/scpkix-jdk15on-1.47.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/scprov-jdk15-1.46.99.3-UNOFFICIAL-ROBERTO-RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/scprov-jdk15on-1.47.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/My jar/shareTLS.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/axis.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/axis-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/hsqldbmin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/saaj.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/jTSS/ext_libs/wsdl4j-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xiao/workspace/MultiCoreMPT/dropbox/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xiao/workspace/MultiCoreMPT/dropbox/dropbox-java-sdk-1.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xiao/workspace/MultiCoreMPT/dropbox/httpclient-4.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xiao/workspace/MultiCoreMPT/dropbox/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xiao/workspace/MultiCoreMPT/dropbox/httpmime-4.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/xiao/workspace/MultiCoreMPT/dropbox/json_simple-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
