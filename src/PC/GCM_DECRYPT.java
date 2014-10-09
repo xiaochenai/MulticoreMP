@@ -10,6 +10,7 @@ import javax.crypto.spec.*;
 public class GCM_DECRYPT
 {
 	public long KeyunBinding = 0;
+	public long indexDecMeg=0;
 	//decrypts the file given by input using the key keyIn and the IV
 	public boolean gcmDecrypt(String input, String keyIn, String IV)
 	{
@@ -104,7 +105,7 @@ public class GCM_DECRYPT
 				key = new byte[key1.length];
 				for(int i = 0; i < key1.length; i++)
 				{
-					key[i] = (byte) (key1[i]^key2[i]);
+					//key[i] = (byte) (key1[i]^key2[i]);
 				}
 			}
 			
@@ -127,6 +128,7 @@ public class GCM_DECRYPT
 	    }	
 	    
 	    KeyunBinding = System.currentTimeMillis() - start;
+	    long decStart = System.currentTimeMillis();
 	    Decrypter decrypter = new Decrypter(key_1, IV1);
 	    
 	    try 
@@ -135,6 +137,7 @@ public class GCM_DECRYPT
 	    	{
 	    		//decrypts the index
 	    		decrypter.decrypt(getBytesFromFile(new File("Index.encrypted")), "Index.index");
+	    		indexDecMeg = System.currentTimeMillis() - decStart;
 	    	}
 	    } 
 	    catch (IOException e) 
