@@ -303,7 +303,7 @@ public class FilePanel extends JPanel{
 			try 
 			{
 				//restarts the program
-				MpSplitFiles.main(null);
+				SplitFiles.main(null);
 			} catch (Exception e1) {e1.printStackTrace();
 			}
 			
@@ -461,7 +461,7 @@ public class FilePanel extends JPanel{
 	        //creates an array of all objects selected in file manager
 	        File files[] = c.getSelectedFiles();
 	        
-	        long startTime =0;
+	        long startTime = System.currentTimeMillis();
 	          for( int i = 0; i < files.length; i++)
 	    	  {
 	        	  //gets the file name and directory
@@ -497,7 +497,6 @@ public class FilePanel extends JPanel{
 							} catch (NoSuchAlgorithmException e1) { e1.printStackTrace();
 							}
 				  	    	//calls the function to encrypt the file
-				  	    	startTime = System.currentTimeMillis();
 				  	    	ge.gcmEncrypt(dir+fileName, key);
 			          }
 			          //shows message of file not existing
@@ -525,10 +524,7 @@ public class FilePanel extends JPanel{
 	    	}
 	      
 	        try {
-				fos.write(("File encrypt and split Time Stamp1 : " + ge.file_enc_split+ "\r\n").getBytes());
-				fos.write(("File encrypt and split Time Stamp2 : " + (ge.fileenc+ge.filesplit)+ "\r\n").getBytes());
-				fos.write(("File encrypt Time Stamp : " + ge.fileenc+ "\r\n").getBytes());
-				fos.write(("File split Time Stamp : " + ge.filesplit+ "\r\n").getBytes());
+				fos.write(("File encrypt and split Time Stamp : " + (System.currentTimeMillis() - startTime) + "\r\n").getBytes());
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
@@ -598,28 +594,29 @@ public class FilePanel extends JPanel{
 	        System.out.println("server.key : " + Base64Coder.encodeLines(server.key));
 	        ge.indexEncrypt(server.key,nRSecret);
 	        isEncrypted = true;
+	        long indexencrypt = System.currentTimeMillis()-startTime;
 	        //splits the index
 	        //System.out.println("Index Start Time Stamp : " + System.currentTimeMillis());
 	        try {
+	        	fos.write(("Index encrypt End Time Stamp : " + ( indexencrypt)+ "\r\n").getBytes());
 	        	fos.write(("Key binding end time stamp : " + ge.Keybinding + "\r\n").getBytes());
 				JOptionPane.showMessageDialog(frame, "Index enctyption Finished");			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	        long indexSplit = 0;
+	        startTime = System.currentTimeMillis();
 	        try {
-	        	startTime = System.currentTimeMillis();
-				MpSplitFiles.splitIndex();
-				indexSplit = System.currentTimeMillis() - startTime;
+				SplitFiles.splitIndex();
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 	        
 	        //System.out.println("Index End Time Stamp : " + System.currentTimeMillis());
+	        long indexsplit = (System.currentTimeMillis()-startTime);
 	        try {
-	        	fos.write(("Index enc and split End Time Stamp1 : " + (MpSplitFiles.indexSplit+ge.indexEnc)+ "\r\n").getBytes());
-	        	fos.write(("Index enc and split End Time Stamp2 : " + (indexSplit+ge.index_enc_split-ge.Keybinding )+ "\r\n").getBytes());
+	        	fos.write(("Index split End Time Stamp : " + (indexsplit )+ "\r\n").getBytes());
+	        	fos.write(("Index split and encrypt Time Stamp : " + (indexsplit+indexencrypt )+ "\r\n").getBytes());
 				JOptionPane.showMessageDialog(frame, "Index Splitting Finished");			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -671,7 +668,7 @@ public class FilePanel extends JPanel{
 			//merges the index pieces back together
 			System.out.println("merge File");
 			try {
-				MpSplitFiles.mergeIndex();
+				SplitFiles.mergeIndex();
 			} catch (IOException e3) {
 				// TODO Auto-generated catch block
 				e3.printStackTrace();
@@ -681,7 +678,7 @@ public class FilePanel extends JPanel{
 			long merge = 0;
 			try {
 				merge = System.currentTimeMillis()-startTime;
-				fos.write(("Index Merge end time stamp : " + MpSplitFiles.indexMerge + "\r\n").getBytes());			} catch (IOException e2) {
+				fos.write(("Index Merge end time stamp : " + (System.currentTimeMillis()-startTime) + "\r\n").getBytes());			} catch (IOException e2) {
 				// TODO Auto-generated catch block
 				e2.printStackTrace();
 			}
@@ -695,8 +692,8 @@ public class FilePanel extends JPanel{
 			}
 			try {
 				long decrypt = System.currentTimeMillis()-startTime;
-				fos.write(("Index Decrypt end time stamp : " + gd.indexDecMeg + "\r\n").getBytes());
-				fos.write(("Index Merge and Decrypt end time stamp " + (decrypt+merge-gd.KeyunBinding)+ "\r\n").getBytes());
+				fos.write(("Index Decrypt end time stamp : " + (System.currentTimeMillis()-startTime) + "\r\n").getBytes());
+				fos.write(("Index Merge and Decrypt end time stamp " + (decrypt+merge)+ "\r\n").getBytes());
 				fos.write(("Key unBinding end time stamp : " + gd.KeyunBinding + "\r\n").getBytes());
 			} catch (IOException e2) {
 				// TODO Auto-generated catch block
@@ -779,7 +776,7 @@ public class FilePanel extends JPanel{
 					  {
 				    	  	fileName = fileNames[i];
 				    	  	//merges current file back together
-					    	MpSplitFiles.mergeFile(fileName, randNums[i].split(","));
+					    	SplitFiles.mergeFile(fileName, randNums[i].split(","));
 					    	//decrypts the current file
 					    	merge = System.currentTimeMillis()-startTime;
 					    	fos.write(("File Merge end time stamp : " + (System.currentTimeMillis()-startTime) + "\r\n").getBytes());

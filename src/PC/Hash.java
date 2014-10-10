@@ -27,25 +27,6 @@ public class Hash {
 		   
 		   return bytesToLong(digest);
 	   }
-	   public static byte[] hash_bytes(long timeSeed){
-		   MessageDigest md = null;
-			try 
-			{
-				//sets the hash function to SHA-1
-				md = MessageDigest.getInstance("SHA-1");
-			} 
-			catch (NoSuchAlgorithmException e) 
-			{
-				e.printStackTrace();
-			}
-			//hashes the input string
-			md.update(longToBytes(timeSeed));
-			
-			//gets the digest
-		   byte[] digest = md.digest();
-		   
-		   return digest;
-	   }
 	   public static byte[] longToBytes(long x) {
 		    ByteBuffer buffer = ByteBuffer.allocate(Long.SIZE);
 		    buffer.putLong(x);

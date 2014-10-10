@@ -1,6 +1,6 @@
 package BackGround;
 
-import PC.MpSplitFiles;
+import PC.SplitFiles;
 import PC.TPMEncData;
 
 public class test {
