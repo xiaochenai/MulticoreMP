@@ -7,9 +7,7 @@ import java.security.NoSuchAlgorithmException;
 
 /*************
  * 
- * @author 123
- * have not finish the time seed based Random Number Generator
- * need to be considered carefully 
+ * @author Xiao
  */
 public class RND {
 	
